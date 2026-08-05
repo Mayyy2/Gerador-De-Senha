@@ -100,7 +100,7 @@ body {
     cursor: pointer;
 }
 
-.parametro-senha__texto {
+.parametro-senha-texto {
     border-top: 2px solid var(--borda);
     border-bottom: 2px solid var(--borda);
     padding: 24px;
