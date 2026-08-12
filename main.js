@@ -5,6 +5,9 @@ numeroSenha.textContent=tamanhoSenha;//atribui o tamanho da senha para o numeroS
 const botoes=document.querySelectorAll('parametro-senha-botao');//seleciona todas
 botoes[0].onclick=dinuiTamanho;
 function dinuiTamanho()  {
+    if (condition) {
+        
+    }
     tamanhoSenha=tamanhoSenha-1;
     numeroSenha.textContent=tamanhoSenha;
 }
