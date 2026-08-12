@@ -69,11 +69,11 @@ body {
     font-size: 28px;
 }
 
-.parametro-senha-titulo {
+.parametro-senha__titulo {
     font-size: 24px;
 }
 
-.parametro-coluna-senha {
+.parametro-coluna__senha {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -89,7 +89,7 @@ body {
     justify-content: center;
 }
 
-.parametro-senha-botao {
+.parametro-senha__botao {
     background-color: var(--fundo-texto);
     color: var(--branco);
     border: 2px solid var(--borda);
@@ -98,7 +98,7 @@ body {
     cursor: pointer;
 }
 
-.parametro-senha-texto {
+.parametro-senha__texto {
     padding: 24px;
     border-top: 2px solid var(--borda);
     border-bottom: 2px solid var(--borda);
@@ -144,7 +144,7 @@ label {
     background-color: rgb(0, 255, 0);
 }
 
-.parametro-senha-texto {
+.parametro-senha__texto {
     display: flex;
     justify-content: space-between;
 
@@ -153,7 +153,7 @@ label {
 
 
 @media screen and (min-width: 768px) {
-    .parametro-coluna-senha {
+    .parametro-coluna__senha {
         flex-direction: row;
     }
 }
