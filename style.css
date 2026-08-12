@@ -69,11 +69,11 @@ body {
     font-size: 28px;
 }
 
-.parametro-senha__titulo {
+.parametro-senha-titulo {
     font-size: 24px;
 }
 
-.parametro-coluna__senha {
+.parametro-coluna-senha {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -89,7 +89,7 @@ body {
     justify-content: center;
 }
 
-.parametro-senha__botao {
+.parametro-senha-botao {
     background-color: var(--fundo-texto);
     color: var(--branco);
     border: 2px solid var(--borda);
@@ -98,7 +98,7 @@ body {
     cursor: pointer;
 }
 
-.parametro-senha__texto {
+.parametro-senha-texto {
     padding: 24px;
     border-top: 2px solid var(--borda);
     border-bottom: 2px solid var(--borda);
@@ -144,7 +144,7 @@ label {
     background-color: rgb(0, 255, 0);
 }
 
-.parametro-senha__texto {
+.parametro-senha-texto {
     display: flex;
     justify-content: space-between;
 
