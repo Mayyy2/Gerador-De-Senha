@@ -1,9 +1,14 @@
 const numeroSenha = document.querySelector('parametro-senha__texto');
-let tamanhoSenha=12;
+let tamanhoSenha=12;//variavel que pode ser alterada
 
-numeroSenha.textContent=tamanhoSenha;
-const botoes=document.querySelector('parametro-senha__botao');
+numeroSenha.textContent=tamanhoSenha;//atribui o tamanho da senha para o numeroSenha
+const botoes=document.querySelectorAll('parametro-senha__botao');//seleciona todas
 botoes[0].onclick=dinuiTamanho;
 function dinuiTamanho()  {
     tamanhoSenha=tamanhoSenha-1;
+}
+
+botoes[1].onclick=aumentaTamanho;
+function aumentaTamanho()  {
+    tamanhoSenha=tamanhoSenha+1;
 }
