@@ -6,9 +6,11 @@ const botoes=document.querySelectorAll('parametro-senha__botao');//seleciona tod
 botoes[0].onclick=dinuiTamanho;
 function dinuiTamanho()  {
     tamanhoSenha=tamanhoSenha-1;
+    numeroSenha.textContent=tamanhoSenha;
 }
 
 botoes[1].onclick=aumentaTamanho;
 function aumentaTamanho()  {
     tamanhoSenha=tamanhoSenha+1;
+    numeroSenha.textContent=tamanhoSenha;
 }
