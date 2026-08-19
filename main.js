@@ -4,19 +4,28 @@ let tamanhoSenha=12;//variavel que pode ser alterada
 numeroSenha.textContent=tamanhoSenha;//atribui o tamanho da senha para o numeroSenha
 const botoes=document.querySelectorAll('parametro-senha-botao');//seleciona todas
 botoes[0].onclick=dinuiTamanho;
+botoes[1].onclick=aumentaTamanho;
 function dinuiTamanho()  {
     if (tamanhoSenha >1) {
-        tamanhoSenha=tamanhoSenha-1
+        tamanhoSenha--;
         }
     tamanhoSenha=tamanhoSenha-1;
     numeroSenha.textContent=tamanhoSenha;
 }
 
-botoes[1].onclick=aumentaTamanho;
+
 function aumentaTamanho()  {
-     if (tamanhoSenha <20) {
-        tamanhoSenha=tamanhoSenha+1
+     if (tamanhoSenha<20) {
+        tamanhoSenha++;
         }
-    tamanhoSenha=tamanhoSenha+1;
+    
     numeroSenha.textContent=tamanhoSenha;
+}
+
+const campoSenha=document.querySelector(#campo-senha);
+const letrasMaiusculas='ABCDEFG';
+geraSenha();
+function geraSenha(){
+
+
 }
