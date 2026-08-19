@@ -33,3 +33,4 @@ numeroAleatorio=Math.floor(numeroAleatorio);
 console.log(letrasMaiusculas[numeroAleatorio]);
 }
 }
+campoSenha.value=letrasMaiusculas;
